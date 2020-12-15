@@ -1,4 +1,3 @@
-
 // ul.mtree : root <ul> list element.
 // li.mtree-node : All <li> list items with children.
 // li.mtree-open : <li> list items that are open
@@ -7,6 +6,9 @@
 // li.mtree-active : Class for last active <li> list item (experimental)
 
 // All classes listed, with sensible defaults applied
+body{
+  
+}
 ul.mtree {
   opacity: 0; // Set to 0 and let mtree display after initialization
   margin-left: 0; // Lets just remove default left margin on root element shall we ...
